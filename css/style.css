@@ -134,6 +134,7 @@ body {
 
 .content {
     margin: 0 auto;
+    padding-top: 26px;
 }
 
 .grid-templates {
