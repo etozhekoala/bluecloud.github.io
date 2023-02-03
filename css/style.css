@@ -1,0 +1,254 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.page {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    padding: 57px 30px 0 30px;
+}
+
+.menu__top-title {
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__title {
+    font-size: 24px;
+    color: #22215B;
+}
+
+.menu__icon {
+    content: '';
+    width: 19px;
+    height: 19px;
+    background-image: url('../image/menu__icon.svg');
+    background-size: 19px 19px;
+    background-repeat: no-repeat;
+}
+
+.header__search-bar {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.header__search {
+    width: 100%;
+    height: 55px;
+    border: 1px solid #EEF2FE;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 50px;
+    color: #22215B;
+}
+
+.header__search-button {
+    width: 17px;
+    height: 17px;
+    background-image: url('../image/button__search.svg');
+    background-size: 17px 17px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    border: none;
+    position: absolute;
+    left: 19px;
+}
+
+.header__search::placeholder {
+    color: #22215B;
+}
+
+.container {
+    padding: 0 30px;
+}
+
+.main__control-tab {
+    padding-top: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.control-tab__curtail {
+    display: flex;
+    align-items: center;
+}
+
+.control-tab__shevron-down {
+    width: 12px;
+    height: 6px;
+    background-image: url('../image/shevron_down.svg');
+    background-size: 12px 6px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.control-tab__shevron-down_margin-left {
+    margin-left: 12px;
+}
+
+.control-tab__title {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    margin: 0;
+}
+
+.control-tab__select-mode {
+    display: flex;
+}
+
+.control-tab__select-mode_row {
+    width: 15px;
+    height: 15px;
+    background-image: url('../image/row.svg'); 
+    background-size: 15px 15px; 
+    cursor: pointer;  
+}
+
+.control-tab__select-mode_plate {
+    width: 15px;
+    height: 15px;
+    background-image: url('../image/plate.svg');
+    background-size: 15px 15px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.content {
+    margin: 0 auto;
+}
+
+.grid-templates {
+    display: grid;
+    grid-template-columns: 148px 148px;
+    gap: 19px;
+}
+
+.content__card {
+    width: 148px;
+    height: 107px;
+    background-color: #EEF7FE;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 16px;
+}
+
+.card__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__img {
+    width: 35px;
+    height: 28px; 
+    background-size: 35px 28px;  
+}
+
+.card__img_blue {
+    background-image: url(../image/folder_blue.svg);
+}
+
+.card__img_yellow {
+    background-image: url(../image/folder_yellow.svg);
+}
+
+.card__img_red {
+    background-image: url(../image/folder_red.svg);
+}
+
+.card__img_purple {
+    background-image: url(../image/folder_purple.svg);
+}
+
+.card__select-option {
+    width: 3px;
+    height: 15px;
+    background-size: 3px 15px;
+}
+
+.card__select-option_blue {
+    background-image: url(../image/card_option_blue.svg);
+}
+
+.card__select-option_yellow {
+    background-image: url(../image/card_option_yellow.svg);
+}
+
+.card__select-option_red {
+    background-image: url(../image/card_option_red.svg);
+}
+
+.card__select-option_purple {
+    background-image: url(../image/card_option_purple.svg);
+}
+
+.card__bottom {
+    margin-top: 14px;
+}
+
+.card__title {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.card__title_color_blue {
+    color: #415EB6;
+}
+
+.card__title_color_yellow {
+    color: #FFB110;
+}
+
+
+.card__title_color_red {
+    color: #AC4040;
+}
+
+.card__title_color_purple {
+    color: #7E1F86;   
+}
+
+
+.card__date {
+    margin: 0;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.card__date_color_blue {
+    color: #415EB6;
+}
+
+.card__date_color_yellow {
+    color: #FFB110;
+}
+
+.card__date_color_red {
+    color: #AC4040;
+}
+
+.card__date_color_purple {
+    color: #7E1F86;
+}
